@@ -1,3 +1,5 @@
+import 'dart:vmservice_io';
+
 void main() {   
 
    String text1 = 'This is an example of a single-line string.';   
@@ -42,5 +44,28 @@ void main() {
   print("Result of address3 trim is ${address33.trim()}");
   print("Result of address1 trimLeft is ${address11.trimLeft()}");
   print("Result of address2 trimRight is ${address22.trimRight()}");
+
+  //Compare String In Dart
+  print("-----------------------Compare String In Dart-----------------------------");
+  String item1 = "Apple"; 
+  String item2 = "Ant"; 
+  String item3 = "Basket"; 
+   
+  print("Comparing item 1 with item 2: ${item1.compareTo(item2)}"); 
+  print("Comparing item 1 with item 3: ${item1.compareTo(item3)}"); 
+  print("Comparing item 3 with item 2: ${item3.compareTo(item2)}");
+
+  //Replace String
+  print("----------------------------------------Replace String---------------------------------------");
+  String text = "I am a good boy I like milk. Doctor says milk is good for health.";
+  
+  String newText = text.replaceAll("milk", "water"); 
+  
+  print("Original Text: $text");
+  print("Replaced Text: $newText");  
+
+  //Split String 
+  print("-----------------------------------------------Split String ------------------------------------------");
+  
 
 }
