@@ -136,5 +136,12 @@ void main() {
   print("Runes In Dart\n");
   String value2 = "a";
   print(value2.runes);
-   
+  
+  //Check Runtime Type
+  print("------------------------------------------------------------------------------------------------");
+  print("Check Runtime Type\n");
+  var a = 10;
+  print(a.runtimeType); 
+  print(a is int); // true
+
 }
