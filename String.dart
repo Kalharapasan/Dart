@@ -76,4 +76,15 @@ void main() {
   print("List name at 2 index ${listNames[2]}");
   print("List name at 3 index ${listNames[3]}");
 
+  //ToString 
+  print("-----------------------------ToString ---------------------------------------------");
+  int number = 20;     
+  String result = number.toString(); 
+    
+  print("Type of number is ${number.runtimeType}");  
+  print("Type of result is ${result.runtimeType}");  
+
+  //SubString 
+  print("----------------------------------------------------SubString ---------------------------");
+
 }
