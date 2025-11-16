@@ -30,7 +30,17 @@ void main() {
   print("Address 1 in lowercase: ${address1.toLowerCase()}"); 
   print("Address 2 in uppercase: ${address2.toUpperCase()}"); 
   print("Address 2 in lowercase: ${address2.toLowerCase()}"); 
-  
 
+  //Trim String In Dart
+  print("---------------------------------Trim String In Dart-------------------------");
+  String address11 = " USA"; // Contain space at leading.
+  String address22 = "Japan  "; // Contain space at trailing. 
+  String address33 = "New Delhi"; // Contains space at middle.
+  
+  print("Result of address1 trim is ${address11.trim()}");
+  print("Result of address2 trim is ${address22.trim()}");
+  print("Result of address3 trim is ${address33.trim()}");
+  print("Result of address1 trimLeft is ${address11.trimLeft()}");
+  print("Result of address2 trimRight is ${address22.trimRight()}");
 
 }
