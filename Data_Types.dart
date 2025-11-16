@@ -2,7 +2,7 @@ void main() {
 
   print("------------------------------------------------------------------------------------------------");
   print("Numbers");
-  print("------------------------------------------------------------------------------------------------");
+ 
 
   // Declaring Variables  
   int num1 = 100; // without decimal point.
@@ -22,7 +22,7 @@ void main() {
 
   print("------------------------------------------------------------------------------------------------");
   print("Round Double Value To 2 Decimal Places\n");
-  print("------------------------------------------------------------------------------------------------");
+
 
   //Round Double Value To 2 Decimal Places
   // Declaring Variables
@@ -31,7 +31,7 @@ void main() {
 
   print("------------------------------------------------------------------------------------------------");
   print("String\n");
-  print("------------------------------------------------------------------------------------------------");
+
 
   //String
   // Declaring Values     
@@ -44,7 +44,7 @@ void main() {
   //Create A Multi-Line String In Dart
   print("------------------------------------------------------------------------------------------------");
   print("Create A Multi-Line String In Dart\n");
-  print("------------------------------------------------------------------------------------------------");
+
 
   // Multi Line Using Single Quotes   
   String multiLineText = '''
@@ -67,7 +67,7 @@ void main() {
   //Special Character In String
   print("------------------------------------------------------------------------------------------------");
   print("Special Character In String\n");
-  print("------------------------------------------------------------------------------------------------");
+
   // Using \n and \t   
   print("I am from \nUS.");
   print("I am from \tUS.");
@@ -75,7 +75,7 @@ void main() {
   //Create A Raw String In Dart
   print("------------------------------------------------------------------------------------------------");
   print("Create A Raw String In Dart\n");
-  print("------------------------------------------------------------------------------------------------");
+
 
   // Set price value
   num price2 = 10;
@@ -88,7 +88,7 @@ void main() {
   //Convert String To Int In Dart
   print("------------------------------------------------------------------------------------------------");
   print("Convert String To Int In Dart\n");
-  print("------------------------------------------------------------------------------------------------");
+ 
 
   String strvalue = "1";
   print("Type of strvalue is ${strvalue.runtimeType}");   
@@ -100,7 +100,7 @@ void main() {
   //Convert String To Double In Dart
   print("------------------------------------------------------------------------------------------------");
   print("Convert String To Double In Dart\n");
-  print("------------------------------------------------------------------------------------------------");
+
 
   String strvalue2 = "1.1";
   print("Type of strvalue is ${strvalue2.runtimeType}");
@@ -112,7 +112,7 @@ void main() {
   //Convert Int To String In Dart
   print("------------------------------------------------------------------------------------------------");
   print("Convert Int To String In Dart\n");
-  print("------------------------------------------------------------------------------------------------");
+
   int one = 1;
   print("Type of one is ${one.runtimeType}");
   String oneInString = one.toString(); 
@@ -123,12 +123,18 @@ void main() {
   //Convert Double To Int In Dart
   print("------------------------------------------------------------------------------------------------");
   print("Convert Double To Int In Dart\n");
-  print("------------------------------------------------------------------------------------------------");
+
   
   double num11 = 10.01;
   int num22 = num1.toInt(); // converting double to int
 
   print("The value of num1 is $num11. Its type is ${num11.runtimeType}");
   print("The value of num2 is $num22. Its type is ${num22.runtimeType}");
+
+  //Runes In Dart
+  print("------------------------------------------------------------------------------------------------");
+  print("Runes In Dart\n");
+  String value2 = "a";
+  print(value2.runes);
    
 }
