@@ -144,4 +144,14 @@ void main() {
   print(a.runtimeType); 
   print(a is int); // true
 
+  //Statically Typed
+  print("------------------------------------------------------------------------------------------------");
+  print("Statically Typed\n");
+  var myVariable = 50; // You can also use int instead of var
+  //myVariable = "Hello"; // this will give error
+  print(myVariable);
+
+  
+
+
 }
