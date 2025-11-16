@@ -96,8 +96,10 @@ void main() {
   String input = "Hello"; 
   print("$input Reverse is ${input.split('').reversed.join()}"); 
 
-  
-
+  //Capitalize First Letter Of String
+  print("-----------------------------------------Capitalize First Letter Of String-------------------------------");
+  String text5 = "hello world"; 
+  print("Capitalized first letter of String: ${text5[0].toUpperCase()}${text5.substring(1)}"); 
 
 
 }
