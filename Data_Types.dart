@@ -151,7 +151,12 @@ void main() {
   //myVariable = "Hello"; // this will give error
   print(myVariable);
 
-  
+  //Dynamically Typed Example
+  print("------------------------------------------------------------------------------------------------");
+  print("Dynamically Typed Example\n");
+  dynamic myVariable2 = 500;
+  myVariable2 = "Hello";
+  print(myVariable);
 
 
 }
