@@ -123,7 +123,13 @@ void main() {
   list6.remove(30);
   print("List after removing element : ${list6}");
 
-  
+  //Removing List Item From List
+  print("-------------------------------------Removing List Item From List-----------------------------------------------");
+  var list7 = [10, 11, 12, 13, 14];
+  print("List before removing element : ${list7}");
+  list7.removeAt(3);
+  print("List after removing element : ${list7}");
+
 
 
 
