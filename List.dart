@@ -59,8 +59,11 @@ void main() {
   names4[1] = "Bill"; // not possible
   names4[2] = "Elon"; // not possible
 
-  
-  
+  //Access First And Last Elements Of List
+  print("-------------------------------------Access First And Last Elements Of List------------------------------------------------");
+  List<String> drinks = ["water", "juice", "milk", "coke"];
+  print("First element of the List is: ${drinks.first}");
+  print("Last element of the List is: ${drinks.last}");
 
 
 
