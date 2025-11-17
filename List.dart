@@ -39,6 +39,17 @@ void main() {
   //Find The Length Of The List
   print("-------------------------------------Find The Length Of The List------------------------------------------------");
   List<String> names = ["Raj", "John", "Rocky"];
-   print(names.length);
+  print(names.length);
+
+  //Changing Values Of List
+  print("-------------------------------------Changing Values Of List------------------------------------------------");
+  List<String> names2 = ["Raj", "John", "Rocky"];
+  print(names2);
+  names2[1] = "Bill";
+  names2[2] = "Elon";
+  print(names2);
+  
+
+
 
 }
