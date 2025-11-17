@@ -1,2 +1,0 @@
-Welcome to test.txt file.
-This is a new content.
