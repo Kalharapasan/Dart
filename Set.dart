@@ -56,7 +56,14 @@ void main(){
 
   print(fruits8);
 
-  
+  //Difference In Set
+  print("----------------------------------Difference In Set-----------------------------------");
+  Set<String> fruits11 = {"Apple", "Orange", "Mango"};
+  Set<String> fruits21 = {"Apple", "Grapes", "Banana"};
+
+  final differenceSet = fruits11.difference(fruits21);
+
+  print(differenceSet);
 
 
 
