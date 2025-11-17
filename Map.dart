@@ -86,7 +86,19 @@ void main(){
   print("Does Map contain value 3000.0: ${expenses3.containsValue(3000.0)}");
   print("Does Map contain value 100.0: ${expenses3.containsValue(100.0)}");
 
+  //Removing Items From Map
+  print("-----------------------------------emoving Items From Map----------------------------------");
+  Map<String, String> countryCapital5 = {
+  'USA': 'Nothing',
+  'India': 'New Delhi',
+  'China': 'Beijing'
+  };
+  
+  countryCapital5.remove("USA");
+  print(countryCapital5);
+
 
   
+
 
 }
