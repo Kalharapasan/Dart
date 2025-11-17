@@ -25,7 +25,7 @@ void main(){
   //Add & Remove Items In Set
   print("----------------------------------Add & Remove Items In Set-----------------------------------");
   Set<String> fruits4 = {"Apple", "Orange", "Mango"};
-  
+  print("Set Items:$fruits4");
   fruits4.add("Lemon");
   fruits4.add("Grape");
   
@@ -34,6 +34,14 @@ void main(){
   fruits4.remove("Apple");
   print("After Removing Apple: $fruits4");
 
+  //Adding Multiple Elements
+  print("----------------------------------Adding Multiple Elements-----------------------------------");
+  Set<int> numbers = {10, 20, 30};
+  numbers.addAll([40,50]);
+  print("After adding 40 and 50: $numbers");
+
+  //Printing All Values In Set
+  
 
 
 }
