@@ -81,7 +81,17 @@ void main() {
   print("List in :${drinks3}");
   print("List in reverse: ${drinks3.reversed}");
 
+  //Add Item To List
+  print("-------------------------------------Add Item To List-----------------------------------------------");
+  var evenList = [2,4,6,8,10];  
+  print(evenList);  
+  evenList.add(12);  
+  print(evenList); 
+
   
+
+
+
 
 
 
