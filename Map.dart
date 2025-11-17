@@ -112,6 +112,15 @@ void main(){
   }
 
   //Looping In Map Using For Each
+  print("-----------------------------------Looping In Map Using For Each----------------------------------");
+   Map<String, dynamic> book2 = {
+    'title': 'Misson Mangal',
+    'author': 'Kuber Singh',
+    'page': 233
+  };
   
+  
+  // Loop Through For Each
+  book2.forEach((key,value)=> print('Key is $key and value is $value'));
 
 }
