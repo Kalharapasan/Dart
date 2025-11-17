@@ -95,7 +95,13 @@ void main() {
   evenList2.addAll([12, 14, 16, 18]);
   print(evenList2);
 
-  
+  //Insert Item To List
+  print("-------------------------------------Insert Item To List-----------------------------------------------");
+  List myList2 = [3, 4, 2, 5];
+  print(myList2);
+  myList2.insert(2, 15);
+  print(myList2);
+
 
 
 }
