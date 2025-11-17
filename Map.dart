@@ -43,6 +43,15 @@ void main(){
   countryCapital3['Japan'] = 'Tokio';
   print(countryCapital3);
 
-
+  //Updating An Element Of Map
+  print("-----------------------------------Updating An Element Of Map----------------------------------");
+  Map<String, String> countryCapital4 = {
+  'USA': 'Nothing',
+  'India': 'New Delhi',
+  'China': 'Beijing'
+  };
+  // Updating Item
+  countryCapital4['USA'] = 'Washington, D.C.';
+  print(countryCapital4);
 
 }
