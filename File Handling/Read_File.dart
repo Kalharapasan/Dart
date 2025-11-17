@@ -34,5 +34,13 @@ void main() {
   // print file
   print(contents2);
 
+  //Read File From Specific Directory
+  print("-------------------------Read File From Specific Directory--------------------------------");
+  // open file
+  File file4 = File('"D:\Android\Dart\test.txt"');
+  // read file
+  String contents3 = file4.readAsStringSync();
+  // print file
+  print(contents3);
 
 }
