@@ -41,7 +41,15 @@ void main(){
   print("After adding 40 and 50: $numbers");
 
   //Printing All Values In Set
+  print("----------------------------------Printing All Values In Set-----------------------------------");
+  Set<String> fruits7 = {"Apple", "Orange", "Mango"};
   
+  for(String fruit7 in fruits7){
+    print(fruit7);
+  }
+
+  
+
 
 
 }
