@@ -75,6 +75,13 @@ void main() {
   print("Is ages Empty: "+ages.isEmpty.toString());
   print("Is ages not Empty: "+ages.isNotEmpty.toString());
 
+  //Reverse List In Dart
+  print("-------------------------------------Reverse List In Dart------------------------------------------------");
+  List<String> drinks3 = ["water", "juice", "milk", "coke"];
+  print("List in :${drinks3}");
+  print("List in reverse: ${drinks3.reversed}");
+
+  
 
 
 
