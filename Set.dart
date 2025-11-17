@@ -22,7 +22,18 @@ void main(){
   print(fruits3.contains("Mango"));
   print(fruits3.contains("Lemon"));
 
+  //Add & Remove Items In Set
+  print("----------------------------------Add & Remove Items In Set-----------------------------------");
+  Set<String> fruits4 = {"Apple", "Orange", "Mango"};
   
+  fruits4.add("Lemon");
+  fruits4.add("Grape");
+  
+  print("After Adding Lemon and Grape: $fruits4");
+  
+  fruits4.remove("Apple");
+  print("After Removing Apple: $fruits4");
+
 
 
 }
