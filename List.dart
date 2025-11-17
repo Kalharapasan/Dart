@@ -48,6 +48,18 @@ void main() {
   names2[1] = "Bill";
   names2[2] = "Elon";
   print(names2);
+
+  //Mutable And Immutable List
+  print("-------------------------------------Mutable And Immutable List------------------------------------------------");
+  List<String> names3 = ["Raj", "John", "Rocky"]; // Mutable List
+  names3[1] = "Bill"; // possible
+  names3[2] = "Elon"; // possible
+    
+  const List<String> names4 = ["Raj", "John", "Rocky"]; // Immutable List
+  names4[1] = "Bill"; // not possible
+  names4[2] = "Elon"; // not possible
+
+  
   
 
 
