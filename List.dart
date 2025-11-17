@@ -144,10 +144,10 @@ void main() {
   list9.removeRange(0, 3);
   print("List after removing range element:${list9}");
 
-
-
-
-
+  //Loops In List
+  print("-------------------------------------Loops In List-----------------------------------------------");
+  List<int> list10 = [10, 20, 30, 40, 50];
+  list10.forEach((n) => print(n));
 
 
 }
