@@ -170,7 +170,13 @@ void main() {
   var cart = ['milk', 'ghee', if (sad) 'Beer'];
   print(cart);
 
-  
+  //Where In List Dart
+  print("-------------------------------------Where In List Dart-----------------------------------------------");
+  List<int> numbers2 = [2,4,6,8,10,11,12,13,14];
+
+  List<int> even2 = numbers2.where((number2)=> number2.isEven).toList(); 
+  print(even2);
+
 
 
 }
