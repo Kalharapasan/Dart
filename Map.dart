@@ -70,4 +70,23 @@ void main(){
   print("All keys of Map with List: ${expenses2.keys.toList()}");
   print("All values of Map with List: ${expenses2.values.toList()}");
 
+  //Check Map Contains Specific Key/Value Or Not?
+  print("-----------------------------------Check Map Contains Specific Key/Value Or Not?----------------------------------");
+  Map<String, double> expenses3 = {
+    'sun': 3000.0,
+    'mon': 3000.0,
+    'tue': 3234.0,
+  };
+  
+  // For Keys
+  print("Does Map contain key sun: ${expenses3.containsKey("sun")}");
+  print("Does Map contain key abc: ${expenses3.containsKey("abc")}");
+ 
+  // For Values
+  print("Does Map contain value 3000.0: ${expenses3.containsValue(3000.0)}");
+  print("Does Map contain value 100.0: ${expenses3.containsValue(100.0)}");
+
+
+  
+
 }
