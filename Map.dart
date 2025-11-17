@@ -87,7 +87,7 @@ void main(){
   print("Does Map contain value 100.0: ${expenses3.containsValue(100.0)}");
 
   //Removing Items From Map
-  print("-----------------------------------emoving Items From Map----------------------------------");
+  print("-----------------------------------Removing Items From Map----------------------------------");
   Map<String, String> countryCapital5 = {
   'USA': 'Nothing',
   'India': 'New Delhi',
@@ -98,7 +98,20 @@ void main(){
   print(countryCapital5);
 
 
+  //Looping Over Element Of Map
+  print("-----------------------------------Looping Over Element Of Map----------------------------------");
+  Map<String, dynamic> book = {
+    'title': 'Misson Mangal',
+    'author': 'Kuber Singh',
+    'page': 233
+  };
   
+  // Loop Through Map
+  for(MapEntry book in book.entries){
+    print('Key is ${book.key}, value ${book.value}');
+  }
 
+  //Looping In Map Using For Each
+  
 
 }
