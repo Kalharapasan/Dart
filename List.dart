@@ -116,6 +116,15 @@ void main() {
   list5.replaceRange(0, 4, [5, 6, 7, 8]);
   print("List after updation using replaceAll() function : ${list5}");
 
+  //Removing List Item From List
+  print("-------------------------------------Removing List Item From List-----------------------------------------------");
+  var list6 = [10, 20, 30, 40, 50];
+  print("List before removing element : ${list6}");
+  list6.remove(30);
+  print("List after removing element : ${list6}");
+
+  
+
 
 
 
