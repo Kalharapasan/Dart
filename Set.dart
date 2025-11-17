@@ -16,6 +16,13 @@ void main(){
   print("Is fruits not empty? ${fruits2.isNotEmpty}");
   print("The length of fruits is ${fruits2.length}");
 
+  //Check The Available Value
+  print("----------------------------------Check The Available Value-----------------------------------");
+  Set<String> fruits3 = {"Apple", "Orange", "Mango"};
+  print(fruits3.contains("Mango"));
+  print(fruits3.contains("Lemon"));
+
   
+
 
 }
