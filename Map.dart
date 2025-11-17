@@ -123,4 +123,16 @@ void main(){
   // Loop Through For Each
   book2.forEach((key,value)=> print('Key is $key and value is $value'));
 
+  //Remove Where In Dart Map
+  print("-----------------------------------Remove Where In Dart Map----------------------------------");
+  Map<String, double> mathMarks = {
+    "ram": 30,
+    "mark": 32,
+    "harry": 88,
+    "raj": 69,
+    "john": 15,
+  };
+  mathMarks.removeWhere((key, value) => value < 32);
+  print(mathMarks);
+
 }
