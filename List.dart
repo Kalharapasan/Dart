@@ -149,5 +149,15 @@ void main() {
   List<int> list10 = [10, 20, 30, 40, 50];
   list10.forEach((n) => print(n));
 
+  //Multiply All Value By 2 Of All 
+  print("-------------------------------------Multiply All Value By 2 Of All-----------------------------------------------");
+  List<int> list11 = [10, 20, 30, 40, 50];
+  var douledList1 = list11.map((n) => n * 2);
+
+  print((douledList1));
+
+  //
+
+
 
 }
