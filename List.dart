@@ -18,4 +18,15 @@ void main() {
   var list1 = [210,21,22,33,44,55];  
   print(list1); 
 
+  //Access Item Of List
+  print("-------------------------------------Access Item Of List------------------------------------------------");
+  var list3 = [210, 21, 22, 33, 44, 55];
+
+  print(list3[0]);
+  print(list3[1]);
+  print(list3[2]);
+  print(list3[3]);
+  print(list3[4]);
+  print(list3[5]);
+  
 }
