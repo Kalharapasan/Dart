@@ -28,5 +28,13 @@ void main() {
   print(list3[3]);
   print(list3[4]);
   print(list3[5]);
-  
+
+  //Get Index By Value
+  print("-------------------------------------Get Index By Value------------------------------------------------");
+  var list4 = [210, 21, 22, 33, 44, 55];
+
+  print(list4.indexOf(22));
+  print(list4.indexOf(33));
+
+
 }
