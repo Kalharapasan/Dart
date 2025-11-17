@@ -164,7 +164,13 @@ void main() {
   List<String> allNames1 = [...names6, ...names7];
   print(allNames1);
 
+  //Conditions In List
+  print("-------------------------------------Conditions In List-----------------------------------------------");
+  bool sad = false;
+  var cart = ['milk', 'ghee', if (sad) 'Beer'];
+  print(cart);
 
+  
 
 
 }
