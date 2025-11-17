@@ -71,7 +71,15 @@ void main(){
   // index starts from 0 so 2 means Tuesday
   print(days.elementAt(2));
 
-  
+  //Intersection Method 
+  print("----------------------------------Intersection Method ----------------------------------");
+  Set<String> fruits12 = {"Apple", "Orange", "Mango"};
+  Set<String> fruits22 = {"Apple", "Grapes", "Banana"};
+
+  final intersectionSet1 = fruits12.intersection(fruits22);
+
+  print(intersectionSet1);
+
 
 
 
