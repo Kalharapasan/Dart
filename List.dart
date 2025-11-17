@@ -102,6 +102,16 @@ void main() {
   myList2.insert(2, 15);
   print(myList2);
 
+  //Insert Items To List
+  print("-------------------------------------Insert Items To List-----------------------------------------------");
+  var myList4 = [3, 4, 2, 5];
+  print(myList4);
+  myList4.insertAll(1, [6, 7, 10, 9]);
+  print(myList4);
+
+  //Replace Range Of List
+  print("-------------------------------------Replace Range Of List-----------------------------------------------");
+
 
 
 }
