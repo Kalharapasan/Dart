@@ -8,4 +8,14 @@ void main(){
     'China': 'Beijing'
   };
   print(countryCapital);
+
+  //Access Value From Key
+  print("-----------------------------------Access Value From Key----------------------------------");
+  Map<String, String> countryCapital2 = {
+    'USA': 'Washington, D.C.',
+    'India': 'New Delhi',
+    'China': 'Beijing'
+  };
+  print(countryCapital2["USA"]);
+
 }
