@@ -36,5 +36,9 @@ void main() {
   print(list4.indexOf(22));
   print(list4.indexOf(33));
 
+  //Find The Length Of The List
+  print("-------------------------------------Find The Length Of The List------------------------------------------------");
+  List<String> names = ["Raj", "John", "Rocky"];
+   print(names.length);
 
 }
