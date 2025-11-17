@@ -25,6 +25,14 @@ void main() {
   // get last modified time
   print('Last modified: ${file2.lastModifiedSync()}');
 
+  //Read Only Part Of File
+  print("-------------------------Read Only Part Of File--------------------------------");
+  // open file
+  File file3 = new File('test2.txt');
+  // read only first 10 characters
+  String contents2 = file3.readAsStringSync().substring(0, 10);
+  // print file
+  print(contents2);
 
 
 }
