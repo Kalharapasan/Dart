@@ -48,6 +48,14 @@ void main(){
     print(fruit7);
   }
 
+  //Clear Set In Dart
+  print("----------------------------------Clear Set In Dart-----------------------------------");
+  Set<String> fruits8 = {"Apple", "Orange", "Mango"};
+  // to clear all items
+  fruits8.clear();
+
+  print(fruits8);
+
   
 
 
