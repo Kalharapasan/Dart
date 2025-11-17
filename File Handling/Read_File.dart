@@ -25,6 +25,6 @@ void main() {
   // get last modified time
   print('Last modified: ${file2.lastModifiedSync()}');
 
-  
+
 
 }
