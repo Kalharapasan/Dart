@@ -50,20 +50,31 @@ void main() {
   print(names2);
 
   //Mutable And Immutable List
-  print("-------------------------------------Mutable And Immutable List------------------------------------------------");
-  List<String> names3 = ["Raj", "John", "Rocky"]; // Mutable List
-  names3[1] = "Bill"; // possible
-  names3[2] = "Elon"; // possible
+  // print("-------------------------------------Mutable And Immutable List------------------------------------------------");
+  // List<String> names3 = ["Raj", "John", "Rocky"]; // Mutable List
+  // names3[1] = "Bill"; // possible
+  // names3[2] = "Elon"; // possible
     
-  const List<String> names4 = ["Raj", "John", "Rocky"]; // Immutable List
-  names4[1] = "Bill"; // not possible
-  names4[2] = "Elon"; // not possible
+  // const List<String> names4 = ["Raj", "John", "Rocky"]; // Immutable List
+  // names4[1] = "Bill"; // not possible
+  // names4[2] = "Elon"; // not possible
 
   //Access First And Last Elements Of List
   print("-------------------------------------Access First And Last Elements Of List------------------------------------------------");
   List<String> drinks = ["water", "juice", "milk", "coke"];
+  print("element of the List is:${drinks}");
   print("First element of the List is: ${drinks.first}");
   print("Last element of the List is: ${drinks.last}");
+
+  //Check The List Is Empty Or Not
+  print("-------------------------------------Check The List Is Empty Or Not------------------------------------------------");
+  List<String> drinks2 = ["water", "juice", "milk", "coke"];
+  List<int>  ages = [];
+  print("Is drinks Empty: "+drinks2.isEmpty.toString());
+  print("Is drinks not Empty: "+drinks2.isNotEmpty.toString());
+  print("Is ages Empty: "+ages.isEmpty.toString());
+  print("Is ages not Empty: "+ages.isNotEmpty.toString());
+
 
 
 
