@@ -32,7 +32,17 @@ void main(){
   print("Is Map not empty: ${expenses.isNotEmpty}");
   print("Length of map is: ${expenses.length}");
 
-  
+  //Adding Element To Map
+  print("-----------------------------------Adding Element To Map----------------------------------");
+  Map<String, String> countryCapital3 = {
+  'USA': 'Washington, D.C.',
+  'India': 'New Delhi',
+  'China': 'Beijing'
+  };
+  // Adding New Item
+  countryCapital3['Japan'] = 'Tokio';
+  print(countryCapital3);
+
 
 
 }
