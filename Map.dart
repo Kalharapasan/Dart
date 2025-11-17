@@ -54,4 +54,20 @@ void main(){
   countryCapital4['USA'] = 'Washington, D.C.';
   print(countryCapital4);
 
+  //Convert Maps Keys & Values To List
+  print("-----------------------------------Convert Maps Keys & Values To List----------------------------------");
+  Map<String, double> expenses2 = {
+    'sun': 3000.0,
+    'mon': 3000.0,
+    'tue': 3234.0,
+  };
+  
+  // Without List
+  print("All keys of Map: ${expenses2.keys}");
+  print("All values of Map: ${expenses2.values}");
+ 
+  // With List
+  print("All keys of Map with List: ${expenses2.keys.toList()}");
+  print("All values of Map with List: ${expenses2.values.toList()}");
+
 }
