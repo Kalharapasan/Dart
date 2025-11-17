@@ -156,7 +156,14 @@ void main() {
 
   print((douledList1));
 
-  //
+  //Combine Two Or More List In Dart
+  print("-------------------------------------Combine Two Or More List In Dart-----------------------------------------------");
+  List<String> names6 = ["Raj", "John", "Rocky"];
+  List<String> names7 = ["Mike", "Subash", "Mark"];
+
+  List<String> allNames1 = [...names6, ...names7];
+  print(allNames1);
+
 
 
 
