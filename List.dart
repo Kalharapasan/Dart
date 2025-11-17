@@ -130,6 +130,16 @@ void main() {
   list7.removeAt(3);
   print("List after removing element : ${list7}");
 
+  //Removing Last Item From List
+  print("-------------------------------------Removing Last Item From List-----------------------------------------------");
+  var list8 = [10, 20, 30, 40, 50];
+  print("List before removing element:${list8}");
+  list8.removeLast();
+  print("List after removing last element:${list8}");
+
+  
+
+
 
 
 
