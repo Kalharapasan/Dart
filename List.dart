@@ -111,6 +111,11 @@ void main() {
 
   //Replace Range Of List
   print("-------------------------------------Replace Range Of List-----------------------------------------------");
+  var list5 = [10, 15, 20, 25, 30];
+  print("List before updation: ${list5}");
+  list5.replaceRange(0, 4, [5, 6, 7, 8]);
+  print("List after updation using replaceAll() function : ${list5}");
+
 
 
 
