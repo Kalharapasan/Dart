@@ -88,11 +88,14 @@ void main() {
   evenList.add(12);  
   print(evenList); 
 
+  //Add Items To List
+  print("-------------------------------------Add Items To List-----------------------------------------------");
+  var evenList2 = [2, 4, 6, 8, 10];
+  print(evenList2);
+  evenList2.addAll([12, 14, 16, 18]);
+  print(evenList2);
+
   
-
-
-
-
 
 
 }
